@@ -25,7 +25,7 @@ header{
     z-index: 99;
     box-sizing: border-box;
 }
-ul{
+.headcontainer > ul{
     display: inline-block;
     list-style: none;
     margin: 0;
@@ -38,7 +38,7 @@ ul{
     padding-inline-start: 40px;
     unicode-bidi: isolate;
 }
-li{
+.headcontainer> ul>li{
     display: inline-flex;
     letter-spacing: -0.2px;
     font-weight: bolder;
@@ -130,6 +130,108 @@ li{
     letter-spacing: -0.2;
 }
 
+
+.mainsec3{
+    margin:0;
+    padding: 0 0 73px;
+    box-sizing: border-box;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.con3txt{
+    margin: 0;
+    padding:144px 30px 0;
+    text-align: center;
+    font-size: 42px;
+    font-family: normal;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: -0.2px;
+    color:#000;
+}
+.con3ul{
+    display: flex;
+    list-style: none;
+    margin:0;
+    padding: 78px 0 50px;
+    max-width: 1228px;
+    width:100%;
+}
+.con3ul>li{
+    display: list-item;
+    position:relative;
+    text-align: center;
+    margin:0;
+    flex:1;
+    padding:0 0 21px;
+}
+.con3ul>li::before{
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #ff72b4;
+    border-radius: 16px;
+    content: '';
+}
+.con3ul>li::after{
+    display: block;
+    position:absolute;
+    width:100%;
+    height: 1px;
+    content: '';
+    border-top: dotted 2px #e9c0d3;
+    top:8px;
+    z-index: 2;
+}
+.con3ul>li:first-of-type::after{
+    left:50%;
+    width:50%;
+}
+.con3ul>li:last-of-type::before{
+    background-color: #ffce00;
+}
+.con3ul>li:last-of-type::after{
+    border-top: dotted 2px #ffce00;
+    width:50%;
+}
+.con3ul>li>p{
+    display: block;
+}
+.con3li{
+    margin:0;
+    padding:19px 0 0;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color:#000;
+}
+.con3sb{
+    margin:0;
+    padding:13px 0 0;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color: #939393;
+}
+
+
+
+
+
+
+
+
+
 h2{
     font-family: 'TheJamsil5Bold';
     display: block;
@@ -139,6 +241,8 @@ h2{
     margin-inline-start: 0;
     margin-inline-end: 0;
 }
+
+
 @font-face {
     font-family: 'TheJamsil5Bold';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
