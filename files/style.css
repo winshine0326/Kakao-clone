@@ -1,27 +1,29 @@
 body{
+    display:block;
+    unicode-bidi: isolate;
     margin:0;
-    width:100vw;
+    width:100%;
+    height: 100%;
     background-color:black;
     padding:0%;
 }
 header{
     width:100%;
-    height: 90px;
     background-color: #181818;
     display: block;
     unicode-bidi: isolate;
 }
 .headcontainer{
     display:flex;
+    width:78.5%;
+    height: 90px;
     justify-content: space-between;
-    margin-left: 160px;
-    margin-right: 160px;
-    padding-top:3px;
-    height: 100%;
-    padding-left: 30px;
-}
-.headcontainer>*{
-    margin:auto 0;
+    margin: 0 auto;
+    padding:0 0 0 30px;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+    box-sizing: border-box;
 }
 ul{
     display: inline-block;
@@ -48,5 +50,62 @@ li{
     margin:0;
     cursor: pointer;
     transition: color 0.2s;
+    height: 89px;
 }
 
+.mainsec1{
+    display:flex;
+    width: 100%;
+    height: 692px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    margin : 0;
+    background:url(https://kakaostyle.com/_next/static/images/hero-e170d6e060a6a0cb5a04bc9000292191.jpg);
+    background-size: cover;
+    background-position: center center;
+    box-sizing: border-box;
+}
+
+.textcontainer{
+    width:1096px;
+}
+
+.textcontainer>p{
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    margin: 0;
+    padding: 1.5em 0 0;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 40px;
+    color:white;
+}
+
+.maintext{
+    margin:0;
+    padding:0;
+    font-size: 3.9em;
+    font-weight: 400;
+    line-height: 1.53;
+    color:white;
+}
+
+h2{
+    font-family: 'TheJamsil5Bold';
+    display: block;
+    font-weight: bold;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
