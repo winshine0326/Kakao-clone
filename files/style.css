@@ -325,6 +325,7 @@ header{
     max-width: 520px;
     background-size: cover;
 }
+
 .con4li>div{
     width:100%;
     padding:151% 0 0 0;
@@ -345,7 +346,6 @@ header{
     margin:0;
     padding:42px 0 0;
     box-sizing: border-box;
-    transition: background 0.2s;
 }
 .serviceName{
     position:relative;
@@ -360,6 +360,9 @@ header{
     color:#000;
     z-index: 4;
     text-align: center;
+}
+.con4li:hover .serviceName::after{
+    transform: translateX(5px);
 }
 .serviceName::after{
     position:absolute;

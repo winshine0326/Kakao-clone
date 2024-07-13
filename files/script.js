@@ -1,3 +1,5 @@
+
+// 헤더 서비스 호버
 var survice = document.getElementById("survice");
 var headsubdiv = document.getElementById("headsubdiv");
 var headsubul = document.getElementById("headsubul");
@@ -19,4 +21,3 @@ headsubul.addEventListener('mouseout',()=>{
     headsubdiv.style.maxHeight='0px';
     headsubul.style.visibility='hidden';
 })
-  
