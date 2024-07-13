@@ -38,7 +38,7 @@ header{
     padding-inline-start: 40px;
     unicode-bidi: isolate;
 }
-.headcontainer> ul>li{
+.headitem{
     display: inline-flex;
     letter-spacing: -0.2px;
     font-weight: bolder;
@@ -53,6 +53,9 @@ header{
     height: 89px;
 }
 
+.headitem:hover{
+    color: #FFCD00;
+}
 .mainsec1{
     display:flex;
     width: 100%;
