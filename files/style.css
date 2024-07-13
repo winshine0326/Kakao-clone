@@ -88,7 +88,7 @@ header{
     width: 100%;
     max-width: 1096px;
     text-align: right;
-    transition: visibility 0.11s ease-out 0s;
+    transition: visibility 0.08s ease-out 0s;
 }
 .headsubli{
     display: inline-block;
