@@ -327,7 +327,53 @@ header{
     text-align: center;
 }
 
+.footcontainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:91px 28px 69px;
+    background-color: #000000;
+}
+.footinfo{
+    width: 100%;
+    max-width: 1096px;
+}
+.foottitle{
+    font-family: normal;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.23;
+    letter-spacing: -0.8px;
+    padding: 0;
+    margin:0;
+    color: #fff;
+}
+.footinfo>ul{
+    padding:9px 0 0;
+    margin:0;
+    list-style: none;
+}
+.footinfo>ul>li{
+    display: inline-block;
+    margin:0;
+    padding: 0 40px 0 0;
+    font-family: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: -0.4px;
+    color:#a2a2a2;
 
+}
+.footsub{
+    padding: 12px 0 0;
+    margin: 0;
+    font-family: normal;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    color: #676767;
+}
 
 
 
