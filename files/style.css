@@ -56,6 +56,63 @@ header{
 .headitem:hover{
     color: #FFCD00;
 }
+
+#survice:hover .headsubdiv{
+    background-color: black;
+}
+
+#headsubdiv{
+    display:flex;
+    margin:0;
+    justify-content: center;
+    height: 85px;
+    width: 100%;
+    padding:0 50px;
+    opacity: 0.65;
+    background-blend-mode: multiply;
+    background-image: linear-gradient(rgb(242, 242, 242), rgb(242, 242, 242));
+    position:absolute;
+    top:89px;
+    max-height: 0px;
+    left:0px;
+    transition: max-height 0.2s ease 0s;
+    box-sizing: border-box;
+}
+#headsubul{
+    visibility:hidden;
+    list-style: none;
+    display: inline-block;
+    margin:0;
+    padding: 0;
+    height: 85px;
+    width: 100%;
+    max-width: 1096px;
+    text-align: right;
+    transition: visibility 0.11s ease-out 0s;
+}
+.headsubli{
+    display: inline-block;
+}
+.headsubitem{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-family: normal;
+    font-size: 1.25em;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color: #686868;
+    padding: 0 30px;
+    margin: 0;
+    height: 85px;
+    transition: color 0.2s;
+}
+.headsubitem:hover{
+    color:#120C06;
+}
+
+
 .mainsec1{
     display:flex;
     width: 100%;
